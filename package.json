@@ -1,0 +1,26 @@
+{
+  "name": "take-home-node-express",
+  "version": "1.0.0",
+  "description": "Take Home Node Express Service",
+  "author": "colton.willig@aetion.com",
+  "license": "UNLICENSED",
+  "main": "src/server.js",
+  "scripts": {
+    "start": "node src/server.js",
+    "test": "mocha tests/**/*.js",
+    "watch": "nodemon --watch src src/server.js"
+  },
+  "dependencies": {
+    "express": "^4.16.1",
+    "express-pino-logger": "^5.0.0",
+    "pino": "^6.2.1",
+    "pino-pretty": "^4.0.0",
+    "swagger-ui-express": "^4.1.4"
+  },
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "deep-equal-in-any-order": "^1.0.27",
+    "mocha": "^7.1.2",
+    "nodemon": "^2.0.3"
+  }
+}
