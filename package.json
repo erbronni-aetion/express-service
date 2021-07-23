@@ -6,9 +6,8 @@
   "license": "UNLICENSED",
   "main": "src/server.js",
   "scripts": {
-    "start": "node src/server.js",
-    "test": "mocha tests/**/*.js",
-    "watch": "nodemon --watch src src/server.js"
+    "start": "nodemon --watch src src/server.js",
+    "test": "mocha tests/**/*.js"
   },
   "dependencies": {
     "express": "^4.16.1",

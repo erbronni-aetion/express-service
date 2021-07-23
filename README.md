@@ -23,12 +23,9 @@ Build a GET and PUT endpoint with the following spec:
 2. Logging middleware to the terminal with difference log levels
 3. Built-in API versioning to facilitate endpoint changes (i.e. /api/v1/resource, /api/v2/resource, ...)
 4. Unit testing of business logic in **./tests** directory for both endpoints (a testing template is given)
-5. Build a swagger spec
-6. Hosting a swagger ui through the micro-service
 
 ### Bonus Functionality
 1. Validating api request path, header and payload data
-2. Auto-generate the swagger spec
 
 ### Submission
 Submit your project as a zip file with your name (e.g. **john_doe.zip**).  Include any necessary execution instructions in a file: **instructions.txt** (feel free to Dockerize the project using the given Dockerfile).  The project reviewer must be able to (without complications) verify the following:
