@@ -3,6 +3,14 @@
 ### Description
 Build a simple NodeJS Express micro-service using the provided template which includes the following required endpoints and api functionalities
 
+```shell
+# Install dependencies
+npm install 
+# Start server and automatically restart 
+# when server.js changes
+npm run watch
+```
+
 ### Required Endpoint
 Build a GET and PUT endpoint with the following spec:
 * route - **/api/:version/resource/:resourceId**
