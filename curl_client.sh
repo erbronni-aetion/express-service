@@ -11,7 +11,7 @@ set -x
 curl -X PUT \
   -H 'Content-Type: application/json' \
   -H 'X-User-Id: joe' \
-  -d '{"name": {"resourceId": 1, "resource": "RESOURCE"}}' \
+  -d '{"data": {"resourceId": 1, "resource": "RESOURCE"}}' \
   http://${HOST}:${PORT}/api/${VERSION}/resource/1
 { set +x; } 2>/dev/null
 echo ""
